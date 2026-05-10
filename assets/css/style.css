@@ -23,6 +23,11 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Keep anchor targets slightly below viewport top after nav clicks. */
+main section[id] {
+    scroll-margin-top: 1rem;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: var(--color-dark);
