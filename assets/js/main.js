@@ -4,18 +4,19 @@ const navItems = document.querySelectorAll('.nav-links a');
 const backToTopButton = document.querySelector('.back-to-top');
 const sections = document.querySelectorAll('main section[id]');
 const allPicturesGrid = document.querySelector('#all-pictures-grid');
+const pageImages = Array.isArray(window.pageImages) ? window.pageImages : [];
 
 const renderAllPictures = () => {
     if (!allPicturesGrid) {
         return;
     }
 
-    if (!Array.isArray(galleryImages) || galleryImages.length === 0) {
+    if (pageImages.length === 0) {
         allPicturesGrid.innerHTML = '<p class="gallery-empty">No images added yet.</p>';
         return;
     }
 
-    allPicturesGrid.innerHTML = galleryImages
+    allPicturesGrid.innerHTML = pageImages
         .map(
             (image) => `
         <figure class="gallery-item">

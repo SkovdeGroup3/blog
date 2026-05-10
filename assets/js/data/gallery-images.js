@@ -1,4 +1,4 @@
-const galleryImages = [
+window.pageImages = [
     {
         src: 'https://images.unsplash.com/photo-1526498460520-4c246339dccb?auto=format&fit=crop&w=1200&q=80',
         alt: 'Group of students collaborating around laptops in a classroom',
