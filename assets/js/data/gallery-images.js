@@ -14,4 +14,9 @@ window.pageImages = [
         alt: 'Coding setup with multiple laptops and notes',
         caption: 'Hands-on technical work',
     },
+    {
+        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1778443287/IMG_20260510_094501_bfud4a.jpg',
+        alt: 'Swedish lake',
+        caption: 'Swedish lake'
+    }
 ];

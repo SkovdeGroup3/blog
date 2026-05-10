@@ -14,4 +14,9 @@ window.pageImages = [
         alt: 'Plate of grilled food with chili peppers and sauce',
         caption: 'Vault-only food moments',
     },
+    {
+        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1778443279/Snapchat-2112785733_celgfc.jpg',
+        alt: 'Sussy Military',
+        caption: 'Sussy Military'
+    }
 ];
