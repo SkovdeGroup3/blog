@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All pictures | [ProjectName]</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<header class="site-header" id="top">
+    <nav class="navbar" aria-label="main-navigation">
+        <a class="logo" href="index.html#top">[BlogTitle]</a>
+
+        <button class="nav-toggle" type="button" aria-label="navigation open" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links">
+            <li><a href="index.html#intro">Intro</a></li>
+            <li><a href="index.html#day-1">Day 1</a></li>
+            <li><a href="index.html#day-2">Day 2</a></li>
+            <li><a href="index.html#day-3">Day 3</a></li>
+            <li><a href="index.html#day-4">Day 4</a></li>
+            <li><a href="index.html#outro">Outro</a></li>
+            <li><a href="#all-pictures" class="active">All pictures</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero gallery-hero">
+        <p class="eyebrow">[International week] · [Location] · [Gallery]</p>
+        <h1>All pictures</h1>
+        <p class="hero-text">
+            This page collects all selected photos in one place. Add as many images as you want by extending the list in
+            <code>assets/js/data/gallery-images.js</code>.
+        </p>
+        <a class="hero-button" href="#all-pictures">View pictures</a>
+    </section>
+</header>
+
+<main>
+    <section class="overview" id="all-pictures" aria-labelledby="all-pictures-title">
+        <div class="section-heading">
+            <p class="eyebrow">[Gallery]</p>
+            <h2 id="all-pictures-title">Complete photo collection</h2>
+            <p>
+                Add, remove, or reorder items in <code>galleryImages</code> inside
+                <code>assets/js/data/gallery-images.js</code>. The gallery will automatically update and support any
+                number of pictures.
+            </p>
+        </div>
+
+        <div class="all-pictures-grid" id="all-pictures-grid" aria-live="polite"></div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div>
+        <h2>[BlogTitle]</h2>
+        <p>[Short placeholder mention of the international week.]</p>
+    </div>
+
+    <div class="footer-authors">
+        <h3>Authors</h3>
+        <ul>
+            <li>[Author 1]</li>
+            <li>[Author 2]</li>
+            <li>[Author 3]</li>
+            <li>[Author 4]</li>
+            <li>[Author 5]</li>
+            <li>[Author 6]</li>
+        </ul>
+    </div>
+</footer>
+
+<button class="back-to-top" type="button" aria-label="back to the top">↑</button>
+
+<script src="assets/js/data/gallery-images.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

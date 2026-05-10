@@ -146,6 +146,11 @@ a {
     box-shadow: 0 10px 24px rgba(46, 204, 113, 0.3);
 }
 
+.gallery-hero code {
+    font-family: inherit;
+    color: var(--color-green);
+}
+
 main {
     width: min(calc(100% - 2rem), var(--page-width));
     margin: 0 auto;
@@ -240,6 +245,37 @@ main {
 
 .outro-section {
     border-color: rgba(46, 204, 113, 0.35);
+}
+
+.all-pictures-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.gallery-item {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-medium);
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+}
+
+.gallery-item img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.gallery-item figcaption {
+    padding: 0.75rem 0.9rem;
+    color: var(--color-blue-light);
+    font-size: 0.95rem;
+}
+
+.gallery-empty {
+    color: var(--color-muted);
+    padding: 1rem 0;
 }
 
 .site-footer {
