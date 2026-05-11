@@ -50,16 +50,6 @@ window.pageImages = [
         caption: 'Guess the temperature'
     },
     {
-        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1778443079/IMG_20260507_193814_1_ymqfdv.jpg',
-        alt: 'Hostel',
-        caption: 'What sidequest do we get today?'
-    },
-    {
-        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1778443075/IMG_20260507_193720_1_cavhsn.jpg',
-        alt: 'Hostel',
-        caption: 'Is there a storm nearby?'
-    },
-    {
         src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1778443069/eee36f8c-0380-4d66-8f1a-b60148bb741f_xvcdeq.jpg',
         alt: 'Nightlife',
         caption: 'More money wasted'
@@ -70,23 +60,8 @@ window.pageImages = [
         caption: 'Namaste my friend'
     },
     {
-        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1778443070/IMG_20260507_193621_cxsmte.jpg',
-        alt: 'Hostel',
-        caption: 'The Lorax'
-    },
-    {
-        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1778443068/IMG_20260507_193649_hv7j8b.jpg',
-        alt: 'Hostel',
-        caption: 'Do I go bald? Yes that would look better. But Seriously, do I go bald?'
-    },
-    {
         src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1778443062/IMG_20260504_203355_aaed3h.jpg',
         alt: 'Boardgames',
         caption: 'My _ just burst'
-    },
-    {
-        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1778443058/IMG_20260507_193600_ravk7o.jpg',
-        alt: 'Hostel',
-        caption: 'What was the record again? 40?'
     }
 ];
