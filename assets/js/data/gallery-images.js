@@ -64,4 +64,34 @@ window.pageImages = [
         alt: 'Boardgames',
         caption: 'My _ just burst'
     }
+        {
+        src: 'https://res.cloudinary.com/djtfzjyga/image/upload/v1779296216/johan.jpg',
+        alt: 'Socializing',
+        caption: 'Socializing with Johan'
+    },
+    {
+        src: 'https://res.cloudinary.com/djtfzjyga/image/upload/v1779296290/image_cp5ulm.jpg',
+        alt: 'CTF Challenge',
+        caption: 'The Health Potion OVA challenge'
+    },
+    {
+        src: 'https://res.cloudinary.com/djtfzjyga/image/upload/v1779296324/image_by6qfp.jpg',
+        alt: 'Cooking',
+        caption: 'Airbnb pasta night'
+    },
+    {
+        src: 'https://res.cloudinary.com/djtfzjyga/image/upload/v1779296360/image_wzjdsw.jpg',
+        alt: 'Bar event',
+        caption: 'Heading to the bar with Nico'
+    },
+    {
+        src: 'https://res.cloudinary.com/djtfzjyga/image/upload/v1779296381/image_v3qxlw.jpg',
+        alt: 'City trip',
+        caption: 'Meeting the military platoon'
+    },
+    {
+        src: 'https://res.cloudinary.com/djtfzjyga/image/upload/v1779296400/image_d6tdzr.jpg',
+        alt: 'End of day',
+        caption: 'Heading home after a long day'
+    }
 ];
