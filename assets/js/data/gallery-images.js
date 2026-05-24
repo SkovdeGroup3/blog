@@ -63,8 +63,8 @@ window.pageImages = [
         src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1778443062/IMG_20260504_203355_aaed3h.jpg',
         alt: 'Boardgames',
         caption: 'My _ just burst'
-    }
-        {
+    },
+    {
         src: 'https://res.cloudinary.com/djtfzjyga/image/upload/v1779296216/johan.jpg',
         alt: 'Socializing',
         caption: 'Socializing with Johan'
@@ -93,5 +93,20 @@ window.pageImages = [
         src: 'https://res.cloudinary.com/djtfzjyga/image/upload/v1779296400/image_d6tdzr.jpg',
         alt: 'End of day',
         caption: 'Heading home after a long day'
+    },
+    {
+        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1779631284/standings_nj8qca.jpg',
+        alt: 'CTF standings',
+        caption: 'Final CTF standings'
+    },
+    {
+        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1779631307/impossible_acvfjm.png',
+        alt: 'Marcus Theorem',
+        caption: 'The Marcus Theorem — unsolvable by design'
+    },
+    {
+        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1779631284/group_pic_zdoe7u.jpg',
+        alt: 'Group photo',
+        caption: 'The full group in front of Högskolan i Skövde'
     }
 ];
