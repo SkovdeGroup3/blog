@@ -108,5 +108,35 @@ window.pageImages = [
         src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1779631284/group_pic_zdoe7u.jpg',
         alt: 'Group photo',
         caption: 'The full group in front of Högskolan i Skövde'
+    },
+    {
+        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1779879229/unnamed_jq1ezd.webp',
+        alt: 'Hostel',
+        caption: 'The place where alcohol flowed'
+    },
+    {
+        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1779880045/Immanuelskyrkan__Sk%C3%B6vde_wdoa1n.jpg',
+        alt: 'Church',
+        caption: 'The questionable church'
+    },
+    {
+        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1779880505/photo_2026-05-27_13-14-49_qahdyw.jpg',
+        alt: 'CTF Challenge',
+        caption: 'Tinder Management'
+    },
+    {
+        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1779880708/550x366_bbejmz.jpg',
+        alt: 'Boardgames',
+        caption: 'Horny card management'
+    },
+    {
+        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/ar_4:3,c_auto,g_north/582536311_18299893705255343_4198194053202710922_n_ykahzg.jpg',
+        alt: 'Church',
+        caption: 'The head priest'
+    },
+    {
+        src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1779881850/photo_2026-05-27_13-37-11_saatxt.jpg',
+        alt: 'CTF Challenge',
+        caption: 'The start of the dominating Godslayers'
     }
 ];
