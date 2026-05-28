@@ -102,7 +102,7 @@ window.pageImages = [
     {
         src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1779631307/impossible_acvfjm.png',
         alt: 'Marcus Theorem',
-        caption: 'The Marcus Theorem — unsolvable by design'
+        caption: 'The Marcus Theorem, unsolvable by design'
     },
     {
         src: 'https://res.cloudinary.com/dtncz9cld/image/upload/v1779631284/group_pic_zdoe7u.jpg',
